@@ -1,0 +1,32 @@
+step 1 : create a script.js file and link it to the html
+step 2 : get refrences for inputField , addButton and todoList by their respective ids
+         e.g. const inputField = document.getElementById('todo-input');
+step 3 : add a function by the name addTodo
+step 4 : trigger the function by the Add buttton
+         addButton.addEventListener('click', addTodo);
+step 5 : In the addTodo function maek a task variable and get the text of the input field in that variable
+step 6 : if task is empty dont add it to the list 
+step 7 : create a new list item 
+step 8 : add the text of task variable in the li 
+step 9 : add a complete button to the end of the li text 
+step 9 : add a delete button to the adjecent of complete button 
+step 10 : write the styles for the complete and delete button and add their respective classes 
+step 11 : appemd the buttons to the list item
+step 12 : write the onCLick functionality for the complete button 
+          - li.completed {
+            text-decoration: line-through;
+            color: #888;
+            }
+step 13 : write the onCLick functionality of the delete button
+          
+         - deleteButton.onclick = () => {
+          listItem.remove();
+           };
+
+step 14 : Append list item to the to-do list
+step 15 : Clear input field
+step 16 : Add event listener for Enter key, clicking the enter key on keyboard adds the task to the list
+step 17 : commit the changes to GITHUB
+          - git add .
+          - git commit -m "changes in script.js" 
+          - git push origin main 

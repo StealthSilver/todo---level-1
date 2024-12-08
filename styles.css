@@ -15,6 +15,7 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 20px 30px;
   border-radius: 8px;
+  width: 400px;
   text-align: center;
 }
 
@@ -67,4 +68,40 @@ li {
   margin-bottom: 10px;
   border-radius: 4px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+li.completed {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.todo-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.action-btn {
+  padding: 5px 10px;
+  font-size: 0.9rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.complete-btn {
+  background-color: #007bff;
+  color: white;
+}
+
+.complete-btn:hover {
+  background-color: #0056b3;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+  color: white;
+}
+
+.delete-btn:hover {
+  background-color: #c82333;
 }
